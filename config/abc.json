@@ -1,8 +1,10 @@
 [
  {
  "module" : "dirlister"
+ "exe": "1"
  },
  {
  "module" : "environment"
+ "exe": "1"
  }
 ]
