@@ -6,7 +6,7 @@ def run(**args):
 
 	if os.path.exists(path):
 
-		with open(path + r'\Login Data') as f:
+		with open(path + r'\Login Data', 'r') as f:
 
 			print(f.read())
 
