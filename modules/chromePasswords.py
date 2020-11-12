@@ -11,5 +11,3 @@ def run(**args):
 			return f.read()
 
 	return ('None')
-
-run()
